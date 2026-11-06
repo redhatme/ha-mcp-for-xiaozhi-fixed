@@ -1,0 +1,13 @@
+{
+  "domain": "ws_mcp_server",
+  "name": "MCP Server for Xiaozhi",
+  "codeowners": ["@redhatme"],
+  "config_flow": true,
+  "dependencies": ["homeassistant", "http", "conversation"],
+  "documentation": "https://github.com/redhatme/ha-mcp-for-xiaozhi-fixed",
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/redhatme/ha-mcp-for-xiaozhi-fixed/issues",
+  "requirements": ["mcp>=2.0.0", "voluptuous-openapi"],
+  "version": "0.2.2"
+}
